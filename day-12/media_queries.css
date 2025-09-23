@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+}
+@media all and (min-width:100px) and (max-width:576px) {
+    body{
+        background-color: blue;
+        height: 100vh;
+        display: grid;
+        justify-content: center;
+    }
+}
+@media all and (min-width:577px) and (max-width:726px) {
+    body{
+        background-color: rgb(152, 243, 95);
+        height: 100vh;
+    }
+}

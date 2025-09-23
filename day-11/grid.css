@@ -1,0 +1,40 @@
+.parent{
+    border: 2px solid red;
+    height: 600px;
+    display: grid;
+    /* overflow-y: auto; */
+    /* grid-template-columns: 100px 200px 300px; */
+    /* grid-template-columns: auto auto auto 100px; */
+    /* grid-template-columns: repeat(2,auto) 100px; */
+    /* grid-template-columns: 200px repeat(2,auto) 100px; */
+    grid-template-columns: 100px 100px;
+    /* grid-template-rows: 150px 120px; */
+    /* grid-template-rows: auto auto; */
+    grid-template-rows: 100px 100px;
+    /* justify-items: center;
+    align-items: center; */
+    /* place-items: start center; */
+    /* column-gap: 50px;
+    row-gap: 5px; */
+    gap: 10px;
+
+    /* justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: center;
+    justify-content: end;
+    justify-content: start;
+    align-content: space-around; */
+    /* place-content: center; */
+}
+.child{
+    background-color: gold;
+    padding: 2rem;
+    /* margin: 2px 1px; insead of margin we can use gap property*/    
+}
+.child1{
+}
+.child2{}
+.child3{}
+.child4{}
+.child5{}

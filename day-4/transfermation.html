@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transfermation</title>
+    <style>
+        div{
+            width: 160px;
+            height: 200px;
+            background-color: aquamarine;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+            transition: all 0.5s linear;
+        }
+        div:hover{
+            border: 1px solid red;
+            box-shadow: 2px 3px 4px /*color*/;
+            /* transform: translateX(200px);
+            transform: translateY(200px); */
+            transform: translate(5px, -5px);
+        }
+        #id1:hover{
+            transform: rotate(45deg);
+
+        }
+        #id2:hover{
+            transform: scale(2, 2);
+            /* transform: scaleY(3); */
+        }
+        #id3:hover{
+            transform: skew(360deg);
+        }
+        #id4:hover{
+            transform: translate(30px) rotate(40deg) scale(2) skew(60deg);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3>web development</h3>
+        <p>Modren, responsive website built with cutting edges</p>
+        <button>view</button>
+    </div><br>
+    <div id="id1">
+        <h3>web development</h3>
+        <p>Modren, responsive website built with cutting edges</p>
+        <button>view</button>
+    </div><br>
+    <div id="id2">
+        <h3>web development</h3>
+        <p>Modren, responsive website built with cutting edges</p>
+        <button>view</button>
+    </div><br>
+    <div id="id3">
+        <h3>web development</h3>
+        <p>Modren, responsive website built with cutting edges</p>
+        <button>view</button>
+    </div><br>
+    <div id="id4">
+        <h3>web development</h3>
+        <p>Modren, responsive website built with cutting edges</p>
+        <button>view</button>
+    </div>
+</body>
+</html>

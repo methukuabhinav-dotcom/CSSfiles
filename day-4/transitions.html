@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transitions</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            border: 2px solid red;
+            background-color: aqua;
+            /* transition-property: width bacground-color; */
+            transition-property: all;
+            transition-duration: 2s;
+            transition-delay: 1s;
+            /* same speed start to end */
+            transition-timing-function: linear ;
+            /* slow start fast end */
+            transition-timing-function: ease-in ;
+            /* slow end fast start */
+            transition-timing-function: ease-out ;
+            transition-timing-function: ease-in-out ;
+         }
+        div:hover{
+            background-color: rgb(79, 164, 195);
+            width: 200px;
+            height: 200px;
+            border: 4px dotted green;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+        /* Universal selector is used for whole code */
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* for id we wirte #unique_id{} */
+        #id1{
+           color: brown;  
+        }
+        /* for class we use .class_name{} */
+        .c1{
+            color: blue;
+        }
+        .card{
+            background-color: bisque;
+        }
+        #id3{
+            background-color: black;
+        }
+        .c3{
+            background-color: antiquewhite;
+        }
+        /* group selector */
+        #id4,h3,b,.c5{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <!-- selectors -->
+     <!-- simple selector: id, claa, tag/element(type selector), universel selector -->
+      <!-- id selector must be unique -->
+    <p id="id1">id selector</p>
+    <!-- class is used to styling multiple tags by single class -->
+    <p class="c1 card">Hello</p>
+    <p class="card">hi</p>
+    <!-- id will be given more important than class because it is unique -->
+     <p id="id3" class="c3">id class</p>
+     
+
+
+     <p id="id4">Group selector</p>
+     <h3>Group selector</h3>
+     <b>Group selector</b>
+     <p class="c5">Group selector</p>
+</body>
+</html>

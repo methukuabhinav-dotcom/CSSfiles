@@ -1,0 +1,32 @@
+.dropdown{
+    position: relative;
+}
+img{
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.dropdown-menu-link{
+    display: block;
+    background-color: aquamarine;
+    text-decoration: none;
+    padding: 5px;
+    color: orangered;
+    transition:  all .2s linear;
+}
+.dropdown-menu{
+    width: 80px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    /* display: none; */
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.subdropdown{
+    background-color: brown;
+    
+}

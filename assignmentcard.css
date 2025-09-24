@@ -1,0 +1,37 @@
+*{
+    padding: 5px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* text-align: center; */
+    color: white;
+}
+.main{
+    border: 1px solid rgb(30, 42, 94);
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(6, 18, 58);
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.card{
+    /* border: 1px solid red; */
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    /* align-items: center; */
+    gap: 30px;
+}
+.bi{
+    font-size: 30px;
+    background-color: rgb(74, 93, 190);
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+}
+.p{
+    color: rgb(3, 91, 213);
+}

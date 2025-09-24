@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::first-letter{
+            color: rgb(255, 0, 0);
+        }
+        h1::first-line{
+            background-color: gold;
+        }
+        ::selection{
+            background-color: aquamarine;
+        }
+        input::placeholder{
+            font-size: .9rem;
+            text-align: center;
+            text-transform: capitalize;
+            color: orangered;
+        }
+        p::before{
+            content: "hello";
+        }
+    </style>
+</head>
+<body>
+    <!-- psuedo elements are used for styling only specific partof an element -->
+    <h1>hello <br> evreyone</h1>
+    <p>WELCOME lo
+    </p>
+    <p>WELCOME</p>
+    <input type="text" placeholder="enter ur name">
+</body>
+</html>

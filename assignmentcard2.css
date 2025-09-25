@@ -1,0 +1,60 @@
+*{
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(8, 8, 32);
+}
+.main{
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(8, 8, 32);
+}
+.card{
+    /* border: 1px solid red; */
+    width: 650px;
+    padding: 20px;
+    background-color: rgba(137, 134, 134, 0.021);
+    border-radius: 20px;
+    /* display: flex;
+    flex-direction: column;
+    align-content: space-around; */
+}
+.card-left{
+    width: 500px;
+}
+.number{
+    display: flex;
+    gap: 20px;
+}
+.bi{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.Subject,.Message{
+    width: 406px;
+}
+.Message{
+    height: 80px;
+}
+.input1{
+    width: 200px;
+}
+.card-bottom{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    border: 1px solid rgb(118, 118, 118);
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 100px;
+    background-color: rgb(8, 8, 32);
+}
+input{
+    background-color:  rgb(8, 8, 32);
+}
